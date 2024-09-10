@@ -1,0 +1,57 @@
+.counter {
+    display: inline-block;
+    font-family: var(--bs-font-family);
+  }
+  .counter__body {
+    width: auto;
+    display: inline-flex;
+    background-color: transparent;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: none;
+  }
+  .counter__minus {
+    flex: 0 1 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+  }
+  .quantity {
+    width: 40px;
+  }
+  .quantity input {
+    width: 100%;
+    background: transparent;
+    font-size: 32px;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  .counter__plus {
+    flex: 0 1 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--black-color);
+    border-radius: 50%;
+  }
+  .counter__plus:hover {
+    transition: var(--bs-transition);
+    border: 1px solid var(--light-gray-color);
+  }
+  .counter__btn:hover {
+    transition: var(--bs-transition);
+    border: 1px solid var(--light-gray-color);
+  }
+  .counter__btn button {
+    background-color: transparent;
+    color: var(--primary-color);
+    font-size: 32px;
+    padding: 16px;
+  }
+  
